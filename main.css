@@ -1,0 +1,135 @@
+body {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url("Kuvat/Enna1.jpg");
+}
+
+header {
+  color: black;
+  font-size: 70px;
+  text-align: left;
+  padding: 0px;
+  margin: 125px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+}
+
+img {
+  width: 450px;
+  height: auto;
+  float: right;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+#valikko {
+    color: black;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 60px;
+  margin-left: 10%;
+}
+li {
+  display: inline;
+  border-right: 1px solid #0f0d0d;
+  float: left;
+  padding: 10px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+#aside {
+  color: rgb(37, 46, 43);
+  padding: 50px;
+  margin: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  float: right;
+  border: solid 1px rgb(37, 46, 43);
+}
+
+#section {
+  color: black;
+  padding: 50px;
+  margin: 50px;
+  border: solid 1px black;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 5%;
+}
+
+#section1 {
+  color: black;
+  padding: 50px;
+  margin: 50px;
+  border: solid 1px black;
+  font-family: arial, sans-serif;
+  margin-bottom: 15%;
+}
+
+#carouselExampleIndicators{
+    margin-top: 8%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  color: black;
+}
+
+#article {
+  color: black;
+  clear: both;
+  text-align: center;
+  margin-bottom: 15%;
+}
+
+footer {
+  background-color: rgb(37, 46, 43);
+  color: lightgray;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+a:link {
+  color: rgb(8, 10, 10);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(51, 59, 59);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(79, 109, 99);
+  text-decoration: none;
+}
